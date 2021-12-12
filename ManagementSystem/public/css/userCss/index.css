@@ -1,0 +1,85 @@
+body{
+  overflow: hidden;
+}
+
+.UserLogin{
+  margin-top:24vh;
+  margin-left: 75vh !important;
+}
+
+/*from TeacherHome.blade.php*/
+.TeacherProfile{
+position: absolute;
+top:12vh;
+left:33%;
+
+}
+#detail{
+  font-weight:bold;
+  color:red;
+}
+
+/* From UploadMarks.blade.php */
+.UploadStudentMarks{
+  position: absolute;
+  top:26vh;
+  left:34%;
+}
+
+/*from CheckUploadMarks.blade.php */
+.checkUploadMarks{
+  position: absolute;
+  top:20vh;
+  left:34%;
+}
+/* From add.blade.php*/
+#addMarks{
+  position: absolute;
+  border:5px solid blue;
+  top: 22vh;
+  left:22%;
+  padding:60px;
+  background-color: grey;
+  border-radius: 20px;
+  box-shadow: 0px 0px 33px 0px black;
+}
+.addBox a{
+font-size: 23px;
+text-decoration: none;
+color:white;
+font-family:verdana;
+border-radius: 10px;
+}
+#checkMarks{
+  position: absolute;
+  border:5px solid blue;
+  top: 22vh;
+  left:52%;
+  padding:60px;
+  background-color: grey;
+  border-radius: 20px;
+  box-shadow: 0px 0px 33px 0px black;
+
+
+}
+
+/*from CheckUserCode.blade.php*/
+.checkStudentUserCode{
+  position: absolute;
+  top:26vh;
+  left:34%;
+}
+
+/*From UploadMarks.blade.php*/
+.UploadMarks{
+  position: absolute;
+  top:21vh;
+  left:34%;
+}
+
+/* to checkStudentMarks  */
+.checkStudentMarks{
+  position: absolute;
+  top:22vh;
+  left: 20%;
+}

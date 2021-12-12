@@ -1,0 +1,155 @@
+body{
+    overflow-x:hidden;
+}
+
+#er{
+    color:blue;
+    background-color: black;
+}
+
+/* from Form.blade.php */
+#adminContainer{
+    position: absolute;
+    top:26vh;
+    left:33%;
+}
+#adminForm{
+    background-color:#323232;
+    border:2px solid black;
+    border-radius: 10px;
+
+}
+#adminForm h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* to display error message */
+.error-message{
+    position: absolute;
+    top:15vh;
+    left:31%;
+    background-color:#FFD7E1;
+    height:36px;
+     font-weight: bold;
+     color:red;
+     padding:0px 160px 0px 160px;
+     border-radius:10px;
+     font-family: monospace;
+
+}
+
+/* From RegisterUser.blade.php */
+#registrationContainer{
+    overflow: hidden;
+    position: absolute;
+    left:15%;
+    top:18%;
+}
+.registrationForm{
+background-color: #343434;
+width: 100%;
+padding:14px 144px 24px 344px; 
+color:white;
+border-radius: 30px;
+}
+
+
+/* from CheckProfile.blade.php */
+.checkProfileTable{
+position: absolute;
+top:42vh;
+left:25%;
+}
+.CheckProfileContainer{
+    position:absolute;
+    top:21vh;
+    left:26%;
+
+}
+#checkProfileButton{
+    margin-top: 4px;
+    margin-left:53px;
+
+}
+.searchBar{
+    position: absolute;
+    top:14vh;
+    right: 3%;
+}
+
+/*from Add.blade.php */
+#addnewExam{
+    position: absolute;
+    border:5px solid firebrick;
+    top: 22vh;
+    left:22%;
+    padding:60px;
+    background-color: grey;
+    border-radius: 20px;
+    box-shadow: 0px 0px 33px 0px black;
+}
+.addBox a{
+font-size: 23px;
+text-decoration: none;
+color:white;
+font-family:verdana;
+border-radius: 10px;
+}
+#addnewSection{
+    position: absolute;
+    border:5px solid firebrick;
+    top: 22vh;
+    left:52%;
+    padding:60px;
+    background-color: grey;
+    border-radius: 20px;
+    box-shadow: 0px 0px 33px 0px black;
+
+
+}
+/*From addNewExams.blade.php */
+.addNewExams{
+    position: absolute;
+    top:24vh;
+    left:33%;
+}
+/*From addNewSubject.blade.php */
+.addNewSubjects{
+    top:24vh;
+    position: absolute;
+    left:33%;
+   
+}
+
+/*From attendance.blade.php */
+.addAttendance{
+    position: absolute;
+    top:15vh;
+    left:20%;
+
+}
+.updateAttendance{
+position:absolute;
+top:15vh;
+left:68%;
+}
+.updateAttendance a{
+    font-size:23px;
+    text-decoration:none;
+    color:purple;
+    font-family:monospace;
+
+}
+/* From editAttendanceDetail */
+.editAttendance{
+    position:absolute;
+    top:24vh;
+    left:39%;
+}
+
+/* From UpdateAttendance.blade.php */
+.Atup{
+    position:absolute;
+    top:22vh;
+    left: 38%;
+}

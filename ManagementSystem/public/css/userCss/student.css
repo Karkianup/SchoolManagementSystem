@@ -1,0 +1,24 @@
+body{
+  overflow-x: hidden;
+}
+
+/* From StudentHome.blade.php  */
+.studentProfile{
+position: absolute;
+top:22%;
+left:45%;
+}
+#detail{
+    font-weight:bold;
+    color:red;
+  }
+  
+  /* from view Own Marks */
+  .ViewOwnMarks{
+    position: absolute;
+    top:22vh;
+    left:25%;
+  }
+  .tableBox{
+    padding-top: 25px;
+  }
