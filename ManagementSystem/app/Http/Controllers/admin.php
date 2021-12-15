@@ -10,7 +10,7 @@ use App\Models\exams;
 use App\Models\subject;
 use App\Models\attendance;
 use PDO;
-
+// Hello everyone my name is Anup karki
 class admin extends Controller
 {
     //from registeruser.blade.php 
